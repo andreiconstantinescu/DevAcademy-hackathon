@@ -23,3 +23,52 @@ body {
 li {
   pointer: cursor;
 }
+#hero img#scissors {
+ padding: 1em;
+  position: absolute;
+  top: 1;
+  left: 49.5%;
+  transform: translate3d(-50%, 0, 0);
+  max-width: 400px;
+  height: auto;
+}
+
+#hero img#spock {
+ padding: 1em;
+  position: absolute;
+  top: 100px;
+  left: 29%;
+  transform: translate3d(-50%, 0, 0);
+  max-width: 400px;
+  height: auto;
+}
+
+#hero img#paper {
+ padding: 1em;
+  position: absolute;
+  top: 95px;
+  left: 70.5%;
+  transform: translate3d(-50%, 0, 0);
+  max-width: 400px;
+  height: auto;
+}
+
+#hero img#lizard {
+ padding: 1em;
+  position: absolute;
+  top: 259px;
+  left: 37.5%;
+  transform: translate3d(-50%, 0, 0);
+  max-width: 400px;
+  height: auto;
+}
+
+#hero img#rock {
+ padding: 1em;
+  position: absolute;
+  top: 259px;
+  left: 63%;
+  transform: translate3d(-50%, 0, 0);
+  max-width: 400px;
+  height: auto;
+}
