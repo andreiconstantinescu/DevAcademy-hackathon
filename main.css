@@ -1,0 +1,17 @@
+body {
+  font-size: 14px;
+}
+
+#hero {
+  position: relative;
+  height: 409px;
+}
+#hero img {
+  padding: 1em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  max-width: 400px;
+  height: auto
+}
