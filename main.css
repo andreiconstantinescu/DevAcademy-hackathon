@@ -19,3 +19,7 @@ body {
   color: #27ae60;
   font-size: 4.5em;
 }
+
+li {
+  pointer: cursor;
+}

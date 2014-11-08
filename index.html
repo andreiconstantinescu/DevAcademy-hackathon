@@ -7,6 +7,7 @@
   <body>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"charset="utf-8"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="DevApp.js" charset="utf-8"></script>
     <div class="container">
       <h1 class="text-center">DevAcademy Hackathon</h1>
       <div id="hero">
@@ -15,11 +16,11 @@
       <div class="row">
         <div class="col-sm-5 col-sm-offset-1">
           <ul class="nav nav-pills nav-stacked" role="tablist">
-            <li><a>Scissors</a></li>
-            <li><a>Paper</a></li>
-            <li><a>Rock</a></li>
-            <li><a>Lizard</a></li>
-            <li><a>Spock</a></li>
+            <li><a data-choice="0">Scissors</a></li>
+            <li><a data-choice="1">Paper</a></li>
+            <li><a data-choice="2">Rock</a></li>
+            <li><a data-choice="3">Lizard</a></li>
+            <li><a data-choice="4">Spock</a></li>
           </ul>
         </div>
         <div class="col-sm-5">
@@ -27,27 +28,8 @@
           <div class="small"></div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-3 col-xs-6">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div class="col-sm-3 col-xs-6">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div class="col-sm-3 col-xs-6">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div class="col-sm-3 col-xs-6">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
+      <div class="col-sm-11 col-sm-offset-1">
+        <div id="history"></div>
       </div>
     </div>
   </body>
