@@ -15,3 +15,7 @@ body {
   max-width: 400px;
   height: auto
 }
+#result {
+  color: #27ae60;
+  font-size: 4.5em;
+}
