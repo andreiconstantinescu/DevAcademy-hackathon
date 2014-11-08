@@ -25,7 +25,7 @@ $(document).ready(function () {
 		return result;
 	}
 
-	$('a').on('click', function () {
+	$('.user-choice').on('click', function () {
 
 		$('li').removeClass('active');
 		$(this).parent().addClass('active');

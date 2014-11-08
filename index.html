@@ -12,23 +12,25 @@
       <h1 class="text-center">DevAcademy Hackathon</h1>
       <div id="hero">
         <img src="assets/img/begin.png" alt="" />
- 	 <img src="assets/img/parts/scissors.png" id="scissors">
-         <img src="assets/img/parts/spock.png" id="spock">
-	 <img src="assets/img/parts/paper.png" id="paper">
-         <img src="assets/img/parts/lizard.png" id="lizard">
-         <img src="assets/img/parts/rock.png" id="rock">
       </div>
       <div class="row">
-        <div class="col-sm-5 col-sm-offset-1">
-          <ul class="nav nav-pills nav-stacked" role="tablist">
-            <li><a data-choice="0">Scissors</a></li>
-            <li><a data-choice="1">Paper</a></li>
-            <li><a data-choice="2">Rock</a></li>
-            <li><a data-choice="3">Lizard</a></li>
-            <li><a data-choice="4">Spock</a></li>
-          </ul>
+        <div data-choice="0", class="user-choice col-sm-2 col-sm-offset-1 col-xs-6", style="text-align: center">
+          <img src="assets/img/parts/scissors.png" id="scissors">
         </div>
-        <div class="col-sm-5">
+        <div data-choice="4", class="user-choice col-sm-2 col-xs-6", style="text-align: center">
+          <img src="assets/img/parts/spock.png" id="spock">
+        </div>
+        <div data-choice="1", class="user-choice col-sm-2 col-xs-6", style="text-align: center">
+          <img src="assets/img/parts/paper.png" id="paper">
+        </div>
+        <div data-choice="3", class="user-choice col-sm-2 col-xs-6", style="text-align: center">
+          <img src="assets/img/parts/lizard.png" id="lizard">
+        </div>
+        <div data-choice="2", class="user-choice col-sm-2 col-xs-6", style="text-align: center">
+          <img src="assets/img/parts/rock.png" id="rock">
+        </div>
+      </div>
+        <div class="text-center">
           <div id="result"></div>
           <div class="small"></div>
         </div>
